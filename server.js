@@ -13,7 +13,7 @@ const config = {
 const client = new Client(config)
 
 app.get('/', function (req, res) {
-	res.send('chatbot-nodejs-heroku-starter!! Yahooooooo');
+	res.send('chatbot-nodejs-heroku-starter!! Yahooo');
 })
 
 app.post('/webhook', middleware(config), (req, res) => {
